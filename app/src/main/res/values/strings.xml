@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Star Wars Trivia</string>
+
+    <!-- Opening with a greeting and instructions to the game. -->
+    <string name="opening">Star Wars Trivia\nEpisode I\nCan you protect the galaxy by answering
+        these 10 trivia questions? May the Force be with you!</string>
+
+    <!-- First question of the trivia game. -->
+    <string name="question_one">Question 1: How do you spell the name of the station where Luke
+        was going to pick up power converters?</string>
+
+    <!-- The correct answer to the first question. -->
+    <string name="question_one_correct_answer">Tosche</string>
+
+    <!-- First wrong answer to question one. -->
+    <string name="question_one_wrong_answer_one">Tashee</string>
+
+    <!-- Second wrong answer to the question one. -->
+    <string name="question_one_wrong_answer_two">Toshi</string>
+
+    <!-- Second question of the trivia game. -->
+    <string name="question_two">Question 2: Who has the first line in "Empire Strikes Back"?</string>
+
+    <!-- The correct answer to question two. -->
+    <string name="question_two_correct_answer">Luke Skywalker</string>
+
+    <!-- First wrong answer to question two. -->
+    <string name="question_two_wrong_answer_one">Chewbacca</string>
+
+    <!-- Second wrong answer to question two. -->
+    <string name="question_two_wrong_answer_two">Han Solo</string>
+
+    <!-- Third question of the trivia game. -->
+    <string name="question_three">Question 3: What color do Resistance blasters emit?</string>
+
+    <!-- The correct answer to question three. -->
+    <string name="question_three_correct_answer">Blue</string>
+
+    <!-- First wrong answer to question three. -->
+    <string name="question_three_wrong_answer_one">Green</string>
+
+    <!-- Second wrong answer to question three. -->
+    <string name="question_three_wrong_answer_two">Red</string>
+
+    <!-- Fourth question of the trivia game. -->
+    <string name="question_four">Question 4: Obi-Wan Kenobi was born on the planet of:</string>
+
+    <!-- The correct answer to question four. -->
+    <string name="question_four_correct_answer">Stewjon</string>
+
+    <!-- First wrong answer to question four. -->
+    <string name="question_four_wrong_answer_one">Alderaan</string>
+
+    <!-- Second wrong answer to question four. -->
+    <string name="question_four_wrong_answer_two">Coruscant</string>
+
+    <!-- Fifth question of the trivia game. -->
+    <string name="question_five">Question 5: Who has the last line in "Revenge of the Sith"?</string>
+
+    <!-- The correct answer to question five. -->
+    <string name="question_five_correct_answer">C-3PO</string>
+
+    <!-- First wrong answer of question five. -->
+    <string name="question_five_wrong_answer_one">Darth Vader</string>
+
+    <!-- Second wrong answer of question five. -->
+    <string name="question_five_wrong_answer_two">Emperor Palpatine</string>
+
+    <!-- Sixth question of the trivia game. -->
+    <string name="question_six">Question 6: Which Actor has appeared in every Star Wars film to date?</string>
+
+    <!-- The correct answer to question six. -->
+    <string name="question_six_correct_answer">Anthony Daniels</string>
+
+    <!-- First wrong answer to question six. -->
+    <string name="question_six_wrong_answer_one">Warwick Davis</string>
+
+    <!-- Second wrong answer to question six. -->
+    <string name="question_six_wrong_answer_two">Peter Mayhew</string>
+
+    <!-- Seventh question of the trivia game. -->
+    <string name="question_seven">Question 7: Jabba\'s pig-like guards are of which species?</string>
+
+    <!-- The correct answer to question seven. -->
+    <string name="question_seven_correct_answer">Gamorrean</string>
+
+    <!-- First wrong answer to question seven. -->
+    <string name="question_seven_wrong_answer_one">Swinelian</string>
+
+    <!-- Second wrong answer to question seven. -->
+    <string name="question_seven_wrong_answer_two">Hogorrean</string>
+
+    <!-- Eighth question to the trivia game. -->
+    <string name="question_eight">Question 8: Which species\' names is NEVER mentioned in the films?</string>
+
+    <!-- The correct answer to question eight. -->
+    <string name="question_eight_correct_answer">Ewoks</string>
+
+    <!-- First wrong answer to question eight. -->
+    <string name="question_eight_wrong_answer_one">Wookies</string>
+
+    <!-- Second wrong answer to question eight. -->
+    <string name="question_eight_wrong_answer_two">Jawas</string>
+
+    <!-- Ninth question to the trivia game. -->
+    <string name="question_nine">Question 9: What is the name of Luke\'s childhood best friend who
+        later served alongside him in the Rebellion?</string>
+
+    <!-- The correct answer to question nine. -->
+    <string name="question_nine_correct_answer">Biggs Darklighter</string>
+
+    <!-- First wrong answer to question nine. -->
+    <string name="question_nine_wrong_answer_one">Nien Numb</string>
+
+    <!-- Second wrong answer to question nine. -->
+    <string name="question_nine_wrong_answer_two">Wedge Antilles</string>
+
+    <!-- Tenth question to the trivia game. -->
+    <string name="question_ten">Question 10: Luke Skywalker\'s self-imposed exile takes place on:</string>
+
+    <!-- The correct answer to question ten. -->
+    <string name="question_ten_correct_answer">Ahch-To</string>
+
+    <!-- First wrong answer to question ten. -->
+    <string name="question_ten_wrong_answer_one">Dagobah</string>
+
+    <!-- Second wrong answer to question ten. -->
+    <string name="question_ten_wrong_answer_two">Takodana</string>
+
+    <!-- Text for the button to submit answers and see results. -->
+    <string name="submit_answers">Submit Answers</string>
+
+
+
+</resources>
