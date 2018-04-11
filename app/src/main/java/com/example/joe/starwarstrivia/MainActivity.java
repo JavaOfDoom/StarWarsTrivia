@@ -21,16 +21,16 @@ public class MainActivity extends AppCompatActivity {
     int questionNumber = 1;
     String missedList = "";
 
-
+/*
     public void checkAnswers (View view) {
-        String correctAnswer = "question" + questionNumber + "_correct_answer"
+        String correctAnswer = "question" + questionNumber + "_correct_answer";
         while (questionNumber <= 10) {
             if () {
                 
             }
 
         }
-    }
+    }*/
 
 
     public void onRadioButtonClicked(View view) {

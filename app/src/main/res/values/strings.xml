@@ -1,9 +1,19 @@
 <resources>
     <string name="app_name">Star Wars Trivia</string>
 
+    <string name="trivia">Trivia</string>
+
+    <string name="episode">Episode I</string>
+
     <!-- Opening with a greeting and instructions to the game. -->
-    <string name="opening">Star Wars Trivia\nEpisode I\nCan you protect the galaxy by answering
-        these 10 trivia questions? May the Force be with you!</string>
+    <string name="opening">A long time ago in a galaxy far,\nfar away.....\n\n\nThe state of the galaxy
+        is in flux. Many fans of Star Wars know a lot about the story, but no once can decide who knows
+        the most. Arguments rage online, insults like "scruffy nerf herder" are thrown around, and
+        friendships are ruined. \n\nOne must rise to the challenge. One must rise to face the gruelling
+        task of taking a quiz. One must be strong enough in the force to go out alone and not look up
+        the answers online!\n\nWill it be you?Can you protect the galaxy by answering
+        these 10 trivia questions? Perhaps. There is only one way to know........\n\n\nMay the Force
+        be with you!</string>
 
     <!-- First question of the trivia game. -->
     <string name="question_one">Question 1: How do you spell the name of the station where Luke
@@ -19,16 +29,20 @@
     <string name="question_one_wrong_answer_two">Toshi</string>
 
     <!-- Second question of the trivia game. -->
-    <string name="question_two">Question 2: Who has the first line in "Empire Strikes Back"?</string>
+    <string name="question_two">Question 2: Who has the first line in "Empire Strikes Back" and who
+        are they talking to?</string>
 
-    <!-- The correct answer to question two. -->
-    <string name="question_two_correct_answer">Luke Skywalker</string>
+    <!-- The person who has the first line. -->
+    <string name="question_two_first_answer">Luke Skywalker</string>
 
     <!-- First wrong answer to question two. -->
     <string name="question_two_wrong_answer_one">Chewbacca</string>
 
-    <!-- Second wrong answer to question two. -->
+    <!-- The person who is being talked to. -->
     <string name="question_two_wrong_answer_two">Han Solo</string>
+
+    <!-- Second wrong answer to question two. -->
+    <string name="question_two_second_answer">Princess Leia</string>
 
     <!-- Third question of the trivia game. -->
     <string name="question_three">Question 3: What color do Resistance blasters emit?</string>

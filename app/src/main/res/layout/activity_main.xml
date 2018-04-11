@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/star_wars_opening"
-    android:padding="8dp"
+    android:background="@drawable/starwarsopeningstars"
     tools:context="com.example.joe.starwarstrivia.MainActivity">
 
     <LinearLayout
@@ -13,22 +12,60 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <ImageView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/opening"
-            android:textColor="#FFEB3B" />
+            android:layout_marginBottom="-30dp"
+            android:layout_marginTop="-30dp"
+            android:src="@drawable/star_wars_logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-60dp"
+            android:paddingLeft="@dimen/text_padding"
+            android:paddingRight="@dimen/text_padding"
+            android:text="@string/trivia"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FFEB3B"
+            android:textSize="100sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
+            android:text="@string/episode"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="30dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
+            android:text="@string/opening"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tosche_station" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:text="@string/question_one"
             android:textColor="#FFEB3B" />
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:padding="@dimen/text_padding"
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/question1_correct_answer"
@@ -61,98 +98,139 @@
                 android:textColor="#FFEB3B" />
         </RadioGroup>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hoth"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:text="@string/question_two"
             android:textColor="#FFEB3B" />
 
-        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="fill_parent"
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <RadioButton
-                android:id="@+id/question2_correct_answer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:buttonTint="#FFEB3B"
-                android:onClick="onRadioButtonClicked"
-                android:text="@string/question_two_correct_answer"
-                android:textColor="#FFEB3B" />
 
-            <RadioButton
-                android:id="@+id/question2_wrong_answer1"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:buttonTint="#FFEB3B"
-                android:onClick="onRadioButtonClicked"
-                android:text="@string/question_two_wrong_answer_one"
-                android:textColor="#FFEB3B" />
+                android:orientation="vertical"
+                android:padding="@dimen/text_padding">
 
-            <RadioButton
-                android:id="@+id/question2_wrong_answer2"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Who said the line?"
+                    android:textColor="#FFEB3B" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text="@string/question_two_first_answer" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text="@string/question_two_wrong_answer_one" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text="@string/question_two_wrong_answer_two" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text="@string/question_two_second_answer" />
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:buttonTint="#FFEB3B"
-                android:onClick="onRadioButtonClicked"
-                android:text="@string/question_two_wrong_answer_two"
-                android:textColor="#FFEB3B" />
-        </RadioGroup>
+                android:orientation="vertical"
+                android:padding="@dimen/text_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Who was the line to?"
+                    android:textColor="#FFEB3B" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text="@string/question_two_first_answer" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text="@string/question_two_wrong_answer_one" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text="@string/question_two_wrong_answer_two" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text="@string/question_two_second_answer" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lego_poe"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:text="@string/question_three"
             android:textColor="#FFEB3B" />
 
-        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="fill_parent"
+        <EditText
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:hint="Enter a color"
+            android:inputType="text"
+            android:padding="@dimen/text_padding" />
 
-            <RadioButton
-                android:id="@+id/question3_correct_answer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:buttonTint="#FFEB3B"
-                android:onClick="onRadioButtonClicked"
-                android:text="@string/question_three_correct_answer"
-                android:textColor="#FFEB3B" />
-
-            <RadioButton
-                android:id="@+id/question3_wrong_answer1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:buttonTint="#FFEB3B"
-                android:onClick="onRadioButtonClicked"
-                android:text="@string/question_three_wrong_answer_one"
-                android:textColor="#FFEB3B" />
-
-            <RadioButton
-                android:id="@+id/question3_wrong_answer2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:buttonTint="#FFEB3B"
-                android:onClick="onRadioButtonClicked"
-                android:text="@string/question_three_wrong_answer_two"
-                android:textColor="#FFEB3B" />
-        </RadioGroup>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/obi_wan_kenobi"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:text="@string/question_four"
             android:textColor="#FFEB3B" />
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
+            android:padding="@dimen/text_padding"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
@@ -187,15 +265,22 @@
                 android:textColor="#FFEB3B" />
         </RadioGroup>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/revenge_of_the_sith"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:text="@string/question_five"
             android:textColor="#FFEB3B" />
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:orientation="horizontal">
 
             <RadioButton
@@ -229,15 +314,22 @@
                 android:textColor="#FFEB3B" />
         </RadioGroup>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/the_star_wars_saga"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:text="@string/question_six"
             android:textColor="#FFEB3B" />
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:orientation="horizontal">
 
             <RadioButton
@@ -271,57 +363,41 @@
                 android:textColor="#FFEB3B" />
         </RadioGroup>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gamorrean"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:text="@string/question_seven"
             android:textColor="#FFEB3B" />
 
-        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="fill_parent"
+        <EditText
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:inputType="text"
+            android:padding="@dimen/text_padding"
+            android:hint="Use the force!"/>
 
-            <RadioButton
-                android:id="@+id/question7_correct_answer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:buttonTint="#FFEB3B"
-                android:onClick="onRadioButtonClicked"
-                android:text="@string/question_seven_correct_answer"
-                android:textColor="#FFEB3B" />
-
-            <RadioButton
-                android:id="@+id/question7_wrong_answer1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:buttonTint="#FFEB3B"
-                android:onClick="onRadioButtonClicked"
-                android:text="@string/question_seven_wrong_answer_one"
-                android:textColor="#FFEB3B" />
-
-            <RadioButton
-                android:id="@+id/question7_wrong_answer2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:buttonTint="#FFEB3B"
-                android:onClick="onRadioButtonClicked"
-                android:text="@string/question_seven_wrong_answer_two"
-                android:textColor="#FFEB3B" />
-        </RadioGroup>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ewok_wookie_jawa"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:text="@string/question_eight"
             android:textColor="#FFEB3B" />
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:orientation="horizontal">
 
             <RadioButton
@@ -355,15 +431,22 @@
                 android:textColor="#FFEB3B" />
         </RadioGroup>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/luke_question_mark"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:text="@string/question_nine"
             android:textColor="#FFEB3B" />
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:orientation="horizontal">
 
             <RadioButton
@@ -397,15 +480,22 @@
                 android:textColor="#FFEB3B" />
         </RadioGroup>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ahch_to"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:text="@string/question_ten"
             android:textColor="#FFEB3B" />
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:orientation="horizontal">
 
             <RadioButton
@@ -442,8 +532,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
             android:text="@string/submit_answers" />
 
     </LinearLayout>
