@@ -8,4 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="textTheme">
+        <item name="android:textColor">@color/starWarsYellow</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">@dimen/text_padding</item>
+        <item name="android:textColorHint">@color/starWarsYellow</item>
+        <item name="android:backgroundTint">@color/starWarsYellow</item>
+    </style>
+
+    <style name="buttonTheme">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/starWarsYellow</item>
+        <item name="android:buttonTint">@color/starWarsYellow</item>
+        <item name="android:padding">@dimen/text_padding</item>
+    </style>
+
 </resources>

@@ -11,7 +11,7 @@
         the most. Arguments rage online, insults like "scruffy nerf herder" are thrown around, and
         friendships are ruined. \n\nOne must rise to the challenge. One must rise to face the gruelling
         task of taking a quiz. One must be strong enough in the force to go out alone and not look up
-        the answers online!\n\nWill it be you?Can you protect the galaxy by answering
+        the answers online!\n\nWill it be you? Can you protect the galaxy by answering
         these 10 trivia questions? Perhaps. There is only one way to know........\n\n\nMay the Force
         be with you!</string>
 
@@ -32,6 +32,10 @@
     <string name="question_two">Question 2: Who has the first line in "Empire Strikes Back" and who
         are they talking to?</string>
 
+    <string name="who_said">Who said that line?</string>
+
+    <string name="to_who">Who was it said to?</string>
+
     <!-- The person who has the first line. -->
     <string name="question_two_first_answer">Luke Skywalker</string>
 
@@ -46,6 +50,8 @@
 
     <!-- Third question of the trivia game. -->
     <string name="question_three">Question 3: What color do Resistance blasters emit?</string>
+
+    <string name="enter_color">Enter a color</string>
 
     <!-- The correct answer to question three. -->
     <string name="question_three_correct_answer">Blue</string>
@@ -95,6 +101,8 @@
     <!-- Seventh question of the trivia game. -->
     <string name="question_seven">Question 7: Jabba\'s pig-like guards are of which species?</string>
 
+    <string name="the_force">Reach out with your feelings. Use the force!</string>
+
     <!-- The correct answer to question seven. -->
     <string name="question_seven_correct_answer">Gamorrean</string>
 
@@ -142,7 +150,7 @@
     <string name="question_ten_wrong_answer_two">Takodana</string>
 
     <!-- Text for the button to submit answers and see results. -->
-    <string name="submit_answers">Submit Answers</string>
+    <string name="submit_answers">Did you save the galaxy?</string>
 
 
 

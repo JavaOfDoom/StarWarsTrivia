@@ -2,5 +2,6 @@
 <resources>
 
     <dimen name="text_padding">8dp</dimen>
+    <dimen name="top_image">40dp</dimen>
 
 </resources>
