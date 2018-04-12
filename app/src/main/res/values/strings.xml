@@ -43,24 +43,15 @@
     <string name="question_two_wrong_answer_one">Chewbacca</string>
 
     <!-- The person who is being talked to. -->
-    <string name="question_two_wrong_answer_two">Han Solo</string>
+    <string name="question_two_second_answer">Han Solo</string>
 
     <!-- Second wrong answer to question two. -->
-    <string name="question_two_second_answer">Princess Leia</string>
+    <string name="question_two_wrong_answer_two">Princess Leia</string>
 
     <!-- Third question of the trivia game. -->
     <string name="question_three">Question 3: What color do Resistance blasters emit?</string>
 
     <string name="enter_color">Enter a color</string>
-
-    <!-- The correct answer to question three. -->
-    <string name="question_three_correct_answer">Blue</string>
-
-    <!-- First wrong answer to question three. -->
-    <string name="question_three_wrong_answer_one">Green</string>
-
-    <!-- Second wrong answer to question three. -->
-    <string name="question_three_wrong_answer_two">Red</string>
 
     <!-- Fourth question of the trivia game. -->
     <string name="question_four">Question 4: Obi-Wan Kenobi was born on the planet of:</string>
@@ -103,15 +94,6 @@
 
     <string name="the_force">Reach out with your feelings. Use the force!</string>
 
-    <!-- The correct answer to question seven. -->
-    <string name="question_seven_correct_answer">Gamorrean</string>
-
-    <!-- First wrong answer to question seven. -->
-    <string name="question_seven_wrong_answer_one">Swinelian</string>
-
-    <!-- Second wrong answer to question seven. -->
-    <string name="question_seven_wrong_answer_two">Hogorrean</string>
-
     <!-- Eighth question to the trivia game. -->
     <string name="question_eight">Question 8: Which species\' names is NEVER mentioned in the films?</string>
 
@@ -152,6 +134,10 @@
     <!-- Text for the button to submit answers and see results. -->
     <string name="submit_answers">Did you save the galaxy?</string>
 
+    <string name="win_message">Congratulations! You have saved the galaxy! You are a true Jedi Master
+    of knowledge! You may rest easy tonight knowing the galaxy is once again safe!</string>
 
+    <string name="lose_message">You are either a Sith Lord trying to send the galaxy into chaos or
+    you are the worst Jedi in the galaxy. Feel free to try again!</string>
 
 </resources>

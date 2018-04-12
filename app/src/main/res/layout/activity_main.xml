@@ -63,6 +63,7 @@
             android:text="@string/question_one" />
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/question1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -73,7 +74,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_one_correct_answer" />
 
             <RadioButton
@@ -81,7 +81,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_one_wrong_answer_one" />
 
             <RadioButton
@@ -89,7 +88,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_one_wrong_answer_two" />
         </RadioGroup>
 
@@ -128,28 +126,32 @@
                     android:text="@string/who_said" />
 
                 <CheckBox
+                    android:id="@+id/question2_right_answer1"
                     style="@style/buttonTheme"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/question_two_first_answer" />
 
                 <CheckBox
+                    android:id="@+id/question2_wrong_answer1"
                     style="@style/buttonTheme"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/question_two_wrong_answer_one" />
 
                 <CheckBox
-                    style="@style/buttonTheme"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/question_two_wrong_answer_two" />
-
-                <CheckBox
+                    android:id="@+id/question2_wrong_answer2"
                     style="@style/buttonTheme"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/question_two_second_answer" />
+
+                <CheckBox
+                    android:id="@+id/question2_wrong_answer3"
+                    style="@style/buttonTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_two_wrong_answer_two" />
 
             </LinearLayout>
 
@@ -167,28 +169,32 @@
                     android:text="@string/to_who" />
 
                 <CheckBox
+                    android:id="@+id/question2_wrong_answer4"
                     style="@style/buttonTheme"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/question_two_first_answer" />
 
                 <CheckBox
+                    android:id="@+id/question2_wrong_answer5"
                     style="@style/buttonTheme"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/question_two_wrong_answer_one" />
 
                 <CheckBox
-                    style="@style/buttonTheme"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/question_two_wrong_answer_two" />
-
-                <CheckBox
+                    android:id="@+id/question2_right_answer2"
                     style="@style/buttonTheme"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/question_two_second_answer" />
+
+                <CheckBox
+                    android:id="@+id/question2_wrong_answer6"
+                    style="@style/buttonTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_two_wrong_answer_two" />
 
             </LinearLayout>
 
@@ -208,6 +214,7 @@
             android:text="@string/question_three" />
 
         <EditText
+            android:id="@+id/question3_answer"
             style="@style/textTheme"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -228,6 +235,7 @@
             android:text="@string/question_four" />
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/question4"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -238,7 +246,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_four_wrong_answer_one" />
 
             <RadioButton
@@ -246,7 +253,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_four_correct_answer" />
 
             <RadioButton
@@ -254,7 +260,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_four_wrong_answer_two" />
         </RadioGroup>
 
@@ -272,6 +277,7 @@
             android:text="@string/question_five" />
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/question5"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -282,7 +288,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_five_wrong_answer_one" />
 
             <RadioButton
@@ -290,7 +295,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_five_wrong_answer_two" />
 
             <RadioButton
@@ -298,7 +302,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_five_correct_answer" />
         </RadioGroup>
 
@@ -316,6 +319,7 @@
             android:text="@string/question_six" />
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/question6"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -326,7 +330,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_six_wrong_answer_one" />
 
             <RadioButton
@@ -334,7 +337,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_six_correct_answer" />
 
             <RadioButton
@@ -342,7 +344,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_six_wrong_answer_two" />
         </RadioGroup>
 
@@ -360,6 +361,7 @@
             android:text="@string/question_seven" />
 
         <EditText
+            android:id="@+id/question7_answer"
             style="@style/textTheme"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -380,6 +382,7 @@
             android:text="@string/question_eight" />
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/question8"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -390,7 +393,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_eight_wrong_answer_one" />
 
             <RadioButton
@@ -398,7 +400,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_eight_wrong_answer_two" />
 
             <RadioButton
@@ -406,7 +407,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_eight_correct_answer" />
         </RadioGroup>
 
@@ -424,6 +424,7 @@
             android:text="@string/question_nine" />
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/question9"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -434,7 +435,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_nine_wrong_answer_one" />
 
             <RadioButton
@@ -442,7 +442,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_nine_correct_answer" />
 
             <RadioButton
@@ -450,7 +449,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_nine_wrong_answer_two" />
         </RadioGroup>
 
@@ -468,6 +466,7 @@
             android:text="@string/question_ten" />
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/question10"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -478,7 +477,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_ten_wrong_answer_one" />
 
             <RadioButton
@@ -486,7 +484,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_ten_wrong_answer_two" />
 
             <RadioButton
@@ -494,7 +491,6 @@
                 style="@style/buttonTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:text="@string/question_ten_correct_answer" />
         </RadioGroup>
 
@@ -503,7 +499,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="8dp"
-            android:text="@string/submit_answers" />
+            android:background="@color/starWarsYellow"
+            android:onClick="answerCheck"
+            android:text="@string/submit_answers"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
