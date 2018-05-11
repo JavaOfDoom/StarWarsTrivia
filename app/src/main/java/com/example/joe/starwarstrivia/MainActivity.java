@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     RadioGroup question8_answers;
     RadioGroup question9_answers;
     RadioGroup question10_answers;
-    int score = 0;
+    int score;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,8 +72,8 @@ public class MainActivity extends AppCompatActivity {
             score += 1;
         }
 
-        String answerQuestion3 = question3_answers.getText().toString();
-        if (answerQuestion3.toLowerCase().equals("blue")) {
+        String answerQuestion3 = question3_answers.getText().toString().trim();
+        if (answerQuestion3.toLowerCase().equalsIgnoreCase("blue")) {
             score += 1;
         }
 
@@ -89,8 +89,8 @@ public class MainActivity extends AppCompatActivity {
             score += 1;
         }
 
-        String answerQuestion7 = question7_answers.getText().toString();
-        if (answerQuestion7.toLowerCase().equals("gamorrean")) {
+        String answerQuestion7 = question7_answers.getText().toString().trim();
+        if (answerQuestion7.toLowerCase().equalsIgnoreCase("gamorrean")) {
             score += 1;
         }
 
@@ -111,12 +111,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private String getRadioGroupAnswer(int id) {
-        // Handle the case where the user did not make a choice
         if (id != -1) {
             RadioButton getSelectedRadioButton = findViewById(id);
             return getSelectedRadioButton.getText().toString();
         } else {
-            // the user did not choose an answer, return an empty string
             return "";
         }
     }
@@ -124,10 +122,10 @@ public class MainActivity extends AppCompatActivity {
     private void resultsToast() {
         if (score == 10) {
             String winningToast = getString(R.string.win_message);
-            Toast.makeText(this, winningToast, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "You got " + score + " out of 10 right! " + winningToast, Toast.LENGTH_LONG).show();
         } else {
             String losingToast = getString(R.string.lose_message);
-            Toast.makeText(this, losingToast, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "You got " + score + " out of 10 right. " + losingToast, Toast.LENGTH_LONG).show();
         }
 
         resetScore();
